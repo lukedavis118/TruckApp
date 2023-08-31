@@ -10,8 +10,7 @@ import datetime as dt
 import pandas as pd
 import numpy as np
 import openrouteservice
-import time
-import sys
+
 
 def findTrips(inputs,session,coords,token):
     
