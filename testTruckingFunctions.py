@@ -4,21 +4,14 @@ Created on Fri Jun  2 11:37:06 2023
 
 @author: luke_
 """
-from threading import Thread
-from seleniumwire import webdriver
-import requests
 import pandas as pd
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.chrome.options import Options
 import json
-from seleniumwire.utils import decode
 from bs4 import BeautifulSoup
 import geopy.distance as gd
-import numpy as np
 import datetime as dt
 import undetected_chromedriver as uc
 from webdriver_manager.chrome import ChromeDriverManager
